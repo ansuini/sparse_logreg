@@ -1,5 +1,3 @@
 # sparse_logreg
-Parallel python version of sparse (lasso) logistic regression for decision images computation
-
-
-Collaboration with : Jackob Macke, Vladimir Djurdevjic, Daniele Bertolini, Davide Zoccolan
+Python version of sparse (lasso) and elasticnet logistic regression for decision images computation 
+with parallel search over the hyperparameters space
