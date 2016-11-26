@@ -44,7 +44,7 @@ niter     = 100
 nsamples  = 10
 alphas    = np.linspace(1e-6, 0.1, nsamples)
 l1_ratios = np.linspace(1e-6,   1, nsamples)
-tuned_parameters = [dict(alpha=a), dict(l1_ratio=b) ]
+tuned_parameters = [dict(alpha=alphas), dict(l1_ratio=l1_ratios) ]
 
 score = 'neg_log_loss'
 
